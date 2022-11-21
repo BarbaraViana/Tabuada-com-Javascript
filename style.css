@@ -104,9 +104,19 @@ footer {
     }
     body {
         background: var(--colorBody);
-        font: normal 8pt Arial;
     }
     .button {
         font-size: 20px;
+    }
+    select {
+        background-color: white;
+        color: black;
+        border: 2px solid var(--colorBody);
+        padding: 3px 3px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        margin: 4px 2px;
     }
 }
